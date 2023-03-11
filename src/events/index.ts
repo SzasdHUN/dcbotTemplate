@@ -4,7 +4,7 @@ import interactionCreate from "./interactionCreate";
 
 const events: Event<any>[] = [
     ready,
-    interactionCreate,
+    ...interactionCreate,
     
 ]
 

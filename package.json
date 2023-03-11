@@ -10,7 +10,8 @@
 		"start": "node .",
 		"test": "tsc && node .",
 		"deploy": "cross-env IS_SCRIPT=true ts-node src/scripts/deploy",
-		"deploy-prod": "cross-env NODE_ENV=prod npm run deploy"
+		"deploy-prod": "cross-env NODE_ENV=prod npm run deploy",
+		"clear": "rm -rf build/*"
 	},
 	"keywords": [],
 	"author": "",

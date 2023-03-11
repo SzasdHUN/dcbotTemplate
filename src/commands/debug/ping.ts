@@ -12,7 +12,7 @@ const meta = new SlashCommandBuilder()
 );
 
 export default command(meta, ({ interaction }) => {
-    const message = interaction.options.getString("message")
+    const message = interaction.options.getString("message");
     
     return interaction.reply({
         ephemeral: true,
